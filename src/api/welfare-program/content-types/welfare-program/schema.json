@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "welfare_programs",
+  "info": {
+    "singularName": "welfare-program",
+    "pluralName": "welfare-programs",
+    "displayName": "welfare_program",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "maxLength": 20,
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title_1": {
+      "type": "string",
+      "required": true,
+      "maxLength": 30
+    },
+    "hero_title_2": {
+      "type": "string",
+      "required": true,
+      "maxLength": 30
+    },
+    "hero_description_1": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "hero_description_2": {
+      "type": "string",
+      "required": true,
+      "maxLength": 120
+    },
+    "hero_description_3": {
+      "type": "string",
+      "required": true,
+      "maxLength": 120
+    },
+    "who_we_are_description": {
+      "type": "text",
+      "required": true
+    },
+    "quote_section_verse": {
+      "type": "string",
+      "required": true,
+      "maxLength": 20
+    },
+    "quote_section_content": {
+      "type": "text",
+      "required": true
+    },
+    "our_vision_content": {
+      "type": "text",
+      "required": true
+    },
+    "welfare_program_content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

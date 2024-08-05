@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogposts",
+  "info": {
+    "singularName": "blogpost",
+    "pluralName": "blogposts",
+    "displayName": "blogpost",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 60,
+      "minLength": 25
+    },
+    "postImageUrl": {
+      "type": "string",
+      "required": true
+    },
+    "blockText": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 400
+    }
+  }
+}
