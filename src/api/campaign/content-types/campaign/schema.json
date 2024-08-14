@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "campaigns",
+  "info": {
+    "singularName": "campaign",
+    "pluralName": "campaigns",
+    "displayName": "campaign",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blockText": {
+      "type": "string",
+      "required": true,
+      "minLength": 20
+    },
+    "videoUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
